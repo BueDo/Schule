@@ -58,7 +58,7 @@ public class DivisionTest {
      */
     @Test (expected  = ArithmeticException.class) 
     public void negTestDurchNullBerechnen() {
-        System.out.println("berechnen durch Null");
+        System.out.println("dividieren durch Null");
         double a = 5.0;
         double b = 0.0;
         Division instance = new Division();
