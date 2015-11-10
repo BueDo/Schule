@@ -6,7 +6,7 @@
 package taschenrechner;
 
 /**
- *
+ * So mal ein Test für Git
  * @author Domi
  */
 public class Addition implements Berechnung{
