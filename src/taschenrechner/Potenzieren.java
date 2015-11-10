@@ -14,6 +14,7 @@ public class Potenzieren implements Berechnung {
     @Override
     public double berechnen(double a, double b){
         //TODO berechnung implementieren
+       
         
         return Math.pow(a, b);
     }
