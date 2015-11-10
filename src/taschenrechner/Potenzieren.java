@@ -15,6 +15,8 @@ public class Potenzieren implements Berechnung {
     public double berechnen(double a, double b){
         //TODO berechnung implementieren und testen
         return 42.0;
+        //TODO berechnung implementieren
+        return Math.pow(a, b);
     }
 }
     
