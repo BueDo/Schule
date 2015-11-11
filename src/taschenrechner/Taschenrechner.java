@@ -7,7 +7,7 @@ package taschenrechner;
 
 /**
  * 
- *@throws IllegalArgumentException wenn setBerechnung einen NULL Parameter übermittel wird
+ * 
  * @author Domi
  */
 public class Taschenrechner 
@@ -39,6 +39,11 @@ public class Taschenrechner
     }
             
    
+/**
+ * 
+ * @throws IllegalArgumentException wenn setBerechnung einen NULL Parameter übermittel wird
+ * @author Domi
+ */
     boolean setBerechnung (Berechnung berechnungsArt){
        if(berechnungsArt==null){
            throw new IllegalArgumentException("Fehler!");

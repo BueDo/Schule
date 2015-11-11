@@ -6,10 +6,18 @@
 package taschenrechner;
 
 /**
- *@throws ArithmeticException bei der Division durch Null
+ * 
  * @author Domi
  */
 public class Division  implements Berechnung{
+    
+    /**
+     * 
+     * @param a erste Zahl
+     * @param b zweite Zahl
+     * @return Ergebnis
+     * @throws ArithmeticException bei der Division durch Null
+     */
     
     @Override
     public double berechnen (double a, double b){
