@@ -15,4 +15,10 @@ public class Addition implements Berechnung{
     public double berechnen (double a, double b){
         return a+b;
     }
+    
+    @Override
+    public String toString() {
+    
+    return "Addition";
+}
 }

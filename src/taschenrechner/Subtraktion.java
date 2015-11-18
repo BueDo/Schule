@@ -16,4 +16,9 @@ public class Subtraktion  implements Berechnung{
         return a-b;
     }
     
+    @Override
+    public String toString() {
+    
+    return "Subtraktion";
+}
 }

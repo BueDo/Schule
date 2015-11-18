@@ -17,4 +17,10 @@ implements Berechnung{
         return a*b;
     }
     
+    @Override
+    public String toString() {
+    
+    return "Multiplikation";
+    }
+    
 }

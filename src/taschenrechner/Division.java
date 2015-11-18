@@ -32,4 +32,9 @@ public class Division  implements Berechnung{
         }
     }
     
+    @Override
+    public String toString() {
+    
+    return "Division";
+    }
 }

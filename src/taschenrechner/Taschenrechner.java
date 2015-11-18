@@ -27,13 +27,13 @@ public class Taschenrechner
     }
    
    
-    boolean setZahl2(double zahl){
+    public boolean setZahl2(double zahl){
         zahl2 = zahl;
     return true;
     }
             
    
-    boolean setErgebnis(double zahl){
+    public boolean setErgebnis(double zahl){
         ergebnis=zahl;
         return true;
     }
@@ -52,6 +52,11 @@ public class Taschenrechner
         berechnung =berechnungsArt;
         return true;
        }
+    }
+    
+    String getBerechnung(){
+        
+        return berechnung.toString();
     }
     
     
